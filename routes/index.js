@@ -249,7 +249,7 @@ CSVToJSON().fromFile('./kaggleDataset/PatientInfo.csv')
 
       let data = new Object();
       // console.log(body.uni);
-      data.id = "urn:COVID-10:case:" + body.patient_id;
+      data.id = "urn:COVID-19:case:" + body.patient_id;
       data.type = "InfectionCase";
       data.createdAt = "2020-05-26T20:10:00,000+09:00";
       data.modifiedAt = "2020-05-26T20:10:00,000+09:00";
